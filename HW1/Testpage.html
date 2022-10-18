@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Урок 2. HTML, CSS. Конспект</title>
+        
+    <!--Гиперссылки --> 
+    <h4><a href="https://gb.ru/lessons/265835">Конспект. Урок 2. HTML, CSS</a></h4>
+
+    <!--ШРИФТЫ добавляются в шапке head  --> 
+    <link href="NEWfile.CSS" rel="stylesheet" typr="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>  Лекция </h2>
+    
+    
+    <!--ШРИФТЫ добавляются в шапке head  -->
+    
+    <img height="150" src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-and-CSS.png" alt="Мое тестовое изображение">
+    
+    <p>Подготовил конспект: Ладонкина А.В.</p>
+   
+    <h2>  Шапка сайта </h2>
+    <hr>
+
+    <ul>
+    <li><p>Гиперссылка оформляется таксим образом:</p></li>
+    <code><pre>&lt;a href="https://gb.ru/lessons/265835">Конспект. Урок 2. HTML, CSS&lt;/a></pre></code>
+    
+    <li><p>Шрифт оформляется таксим образом:</p></li>
+    <code><pre>&lt;link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"></pre></code>
+
+    <li><p>Связь с файлом CSS оформляется таксим образом:</p></li>
+    <code><pre>&lt;link href="NEWfile.CSS" rel="stylesheet" typr="text/css"></pre></code>
+    </ul>
+
+    <h2>  Фото </h2>
+    <hr>
+    <p>Фото оформляется таксим образом:</p>
+    <code><pre>&lt;img height="150" src="https://www.interviewbit.com/blog/wp-content/uploads/2021/10/HTML-and-CSS.png" <br>
+        alt="Мое тестовое изображение"></pre></code>
+    <img height="150" src="./Photo.png"> <!--с своего ПК-->
+    
+   <hr>
+   
+   
+   
+    <!--ЗАГОЛОВКИ --> 
+    <h2>  Заголовки </h2>
+    <p>Заголовки оформляются таким образом:</p>
+    <code><pre>&lt;h1> Главный заголовок &lt;/h1></pre></code>
+    <code><pre>&lt;h2> второй заголовок &lt;/h2></pre></code>
+    <code><pre>&lt;h3> третий заголовок &lt;/h3></pre></code>
+    <code><pre>&lt;h4> четвертый заголовок &lt;/h4></pre></code>
+
+    <h1> Главный заголовок </h1>
+    <h2> Второй заголовок </h2>
+    <h3> Третий заголовок </h3>
+    <h4> Четвертый заголовок </h4>
+    <p>И так далее.</p>
+
+    <hr>
+    
+    
+    
+    <!--Списки --> 
+    <h2>  Списки </h2>
+    <p>Списки оформляются таким образом:</p>
+    
+    <code><pre>&lt;ul>
+            &lt;li>Лиса&lt;/li>
+            &lt;li>Каспер&lt;/li>
+            &lt;/ul></pre></code>
+    
+    <ul>
+        <li>Лиса</li>
+        <li>Каспер</li>
+     </ul>
+     
+     <code><pre>&lt;ol>
+        &lt;li>Один&lt;/li>
+        &lt;li>Два&lt;/li>
+        &lt;li>Три&lt;/li>
+         &lt;/ol></pre></code>
+
+
+     <ol>
+        <li>Один</li>
+        <li>Два</li>
+        <li>Три</li>
+    </ol>
+     
+    <hr>
+     
+     
+     <!--Стили (только к определенной категории)--> 
+     <h2>  Стили </h2>
+     <p>Лучше стили оформлять в css файле, но в html оформление такое (где li и h4 - это нужные теги):</p>
+     <code><pre>&lt;style>
+    li, h4 {
+        color: black;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    &lt;/style></pre></code>
+
+    <hr>
+
+    <h2>  Дополнительные функции </h2>
+    
+    <ul>
+        <!--Рандомное предложение-->  
+        <li><h2>  Рандомное предложение </h2></li>
+            <p> Начинайте вводить lorem и предложение появится автоматически: <br>
+            <strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. </strong>
+            </p>
+
+            <!--Сокращенный синтаксис-->  
+            <li><h2>  Сокращенный синтаксис </h2></li>
+                <a href="https://docs.emmet.io/cheat-sheet/">Сокращенный синтаксис</a>
+
+            <!--Перенос строки--> 
+            <li><h2>  Перенос строки </h2></li>
+            <p>
+            Перенос строчки в нужном месте: &lt;br></pre></code>
+            </p>
+
+            <!--Горизонтальная черта--> 
+            <li> <h2>  Горизонтальная черта </h2></li>
+            <p>
+            Горизонтальная черта: &lt;hr></pre></code>
+            </p>
+
+            <!--Фон заголовка--> 
+            <li><h2>Фон заголовка</h2></li>
+            <code><pre>.h4{ <br>
+                background: red; <br>
+                font-weight: bold; (жирный) <br>
+                text-decoration: none; (убрать стиль) <br>
+            } <br></pre></code>
+
+            </ul>
+</body>
+</html> 

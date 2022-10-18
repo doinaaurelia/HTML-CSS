@@ -1,0 +1,35 @@
+html {
+    background-color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: left;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2 px 2 px white;
+}
+
+h2{
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: left;
+    color: #306367;
+}
+
+body {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0 20px 20px 20px;
+    border: 2px solid whitesmoke;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
