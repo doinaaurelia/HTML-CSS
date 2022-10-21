@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // function hello() {
+    //     let userName = "alex";
+    //     alert(`Привет, ${userName}`)
+    // }
+    // hello()
+
+    //КАК РАБОТАЕТ ALERT
+    // let number = 158 + 2;
+    // alert(number)
+    // 
+    //или
+    // let result = 158 + 2;
+    // alert(`Результат: ${result}`);
+    
+
+    //КАК РАБОТАЕТ PROMPT
+    // let userName = prompt("Введите имя");
+    // alert(`Привет, ${userName}`);
+
+    //НЕСКОЛЬКО АРГУМЕНТОВ
+    // let userName = prompt("Введите имя", "Имя", "Фамилия");
+    // alert(`Привет, ${userName}`);
+    
+    //ФУНКЦИИ
+    // let userName = 'alex';
+    // function showName() {    
+    //     alert(`Привет, ${userName}`);
+    // }
+    // showName();
+
+    //CONFIRM
+    // let question = confirm("Вы уверены?")
+    // if (question) {
+    //     alert("Хорошо!")
+    // } else {
+    //     alert("Жаль!")
+    // }
+
+    //SWITCH
+// let age = parseInt(prompt("Введите число"));
+
+//     switch (age) {
+//         case 18:
+//             alert("Отлично!");
+//             break;
+//         case 10:
+//             alert("Not enough");
+//             break
+//         case 30: 
+//             alert("Go to sleep");
+//             break;
+//         default:
+//             alert("Мы не знаем, что Вам делать :)")
+
+//     }
+
+//КОГДА SWITCH ПОДХОДИТ НЕСКОЛЬКО КЕЙСОВ
+let day = prompt("day")
+
+switch (day) {
+    case "Monday":
+    case "Tuesday":
+    case "Wednesday":
+    case "Thursday":
+    case "Friday":
+        alert("working day");
+        break;
+    case "Saturday":
+    case "Sunday":
+        alert("weekend");
+    default:
+        alert("Not a day");
+
+}
+    </script>
+
+
+</body>
+</html>

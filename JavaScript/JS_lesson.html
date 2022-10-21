@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Script lesson</title>
+</head>
+    <body>
+    <p>Это обычный документ</p>
+        <script language="JavaScript">
+            //Диалоговые кона
+            //alert("Привет, мир!")
+            let p = parseInt(prompt("Введите число"));// parseInt - преобразование в integer, по умолчанию все string
+            alert(p + 5)
+            //let accessAllowed = (age > 18) ? true : false //укороченный if else
+            // || - или
+            // && - и
+            // ! - нет
+            //let right = confirm("Are you sure you're 18?") //окно для подтверждения 
+
+
+            //Циклы
+            //let
+            let i = 0; //сначала делаем, потом проверяем
+            do {
+                alert(i);
+                i++;
+            } while (i < 3)
+
+            //for
+            for(let i = o; i < 3; i++)
+                alert(i)
+
+            
+            //SWITCH
+            let a = 2 + 2
+
+            switch (a) {
+                case 3:
+                    alert("Мало");
+                    break;
+                case 4:
+                    alert("В точку");
+                    break;
+                case 5:
+                    alert("Перебор");
+                    break;
+                default:
+                    alert("Нет таких значений");
+                    
+            }
+            
+            //Функции
+
+            function sum(a, b) {
+                return a + b;
+            }
+
+            let a = parseInt(prompt("Введите число a"));
+            let b = parseInt(prompt("Введите число a"));
+            alert(sum(a, b));
+        
+
+
+
+
+        </script>
+    <p>Здесь возвращаемся обратно в html</p>
+    </body>
+</html>
